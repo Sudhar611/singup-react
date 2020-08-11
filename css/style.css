@@ -1,0 +1,176 @@
+html,body{
+    margin:0;
+    height: 100%;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("../images/bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.signup{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    height: 580px;
+    position: absolute;
+    bottom:50%;
+    right:50%;
+    transform: translate(50%,50%);
+}
+
+.content{
+    color:#fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 82%;
+    height: 50%;
+}
+
+.content h1{
+    font-size: 49px;
+    line-height: 1;
+}
+
+.try{
+    background-color: hsl(248, 32%, 49%);
+    color:#fff;
+    text-align: center;
+    padding:10px;
+    border-radius: 7px;
+    box-shadow: 0 7px 0 -1px rgba(0, 0, 0, 0.2);
+}
+
+.singupcontainer{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.signupform form{
+    background-color: #fff;
+    padding:40px 40px 25px;
+    width:400px;
+    border-radius: 10px;
+    box-shadow: 0 7px 0 -1px rgba(0, 0, 0, 0.2);
+    margin-top:25px;
+}
+
+.formcontrol {
+    position: relative;
+}
+
+.formcontrol input{
+    width: 93%;
+    /* margin-bottom:10px; */
+    height: auto;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    border:thin solid hsl(246, 25%, 77%);
+    padding: 12px;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.formcontrol input:focus{
+    outline: none;
+    border:thin solid black;
+}
+
+.formcontrol input[name=FirstName]{
+    margin: 0;
+}
+
+.formcontrol input[type=submit]{
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-bottom: 4px solid #42ac7e;
+    cursor:pointer;
+}
+
+.submit p{
+    font-size: 10px;
+    text-align: center;
+    color:hsl(246, 25%, 77%);
+}
+
+.formcontrol img{
+    position: absolute;
+    right:14px;
+    top: 26px;
+    display: none;
+}
+
+img.adjust{
+top:11px;
+}
+
+.terms{
+    color:hsl(0, 100%, 74%) ;
+}
+
+.errormsg{
+    color: hsl(0, 100%, 74%);
+    text-align: right;
+    margin: 0;
+    font-size: 12px;
+    display: none;
+}
+
+img.fname, p.fname,img.lname, p.lname,img.email, p.email,img.password, p.password{
+    display: block;
+}
+
+@media (max-width:1200px){
+    html,body{
+        height: auto;
+        background-image: url("../images/bg-intro-mobile.png");
+        background-repeat: no-repeat;
+        background-size: auto auto;
+    }
+
+    .signup{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom:unset;
+        right:unset;
+        transform: none;
+        margin-top:65px;
+    }
+
+    .content{
+        color:#fff;
+        position: relative;
+        left:50%;
+        top: unset;
+        transform: translateX(-50%);
+        width: 67%;
+        height: auto;
+        text-align: center;
+    }
+
+    .singupcontainer{
+        position: static;
+        top: unset;
+        transform: none;
+        margin: 67px 20px;
+    }
+    
+    .content h1{
+        font-size: 36px;
+    }
+
+    .signupform form{
+        width:82%;
+        border-radius: 10px;
+        box-shadow: 0 7px 0 -1px rgba(0, 0, 0, 0.2);
+        margin-top:25px;
+    }
+    
+}

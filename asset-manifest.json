@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/singup-react/static/js/main.d972cf5f.chunk.js",
+    "main.js.map": "/singup-react/static/js/main.d972cf5f.chunk.js.map",
+    "runtime-main.js": "/singup-react/static/js/runtime-main.67e42004.js",
+    "runtime-main.js.map": "/singup-react/static/js/runtime-main.67e42004.js.map",
+    "static/js/2.b7b03db8.chunk.js": "/singup-react/static/js/2.b7b03db8.chunk.js",
+    "static/js/2.b7b03db8.chunk.js.map": "/singup-react/static/js/2.b7b03db8.chunk.js.map",
+    "index.html": "/singup-react/index.html",
+    "precache-manifest.cdc6addb7de2e0d752de8aa9dc9aaed7.js": "/singup-react/precache-manifest.cdc6addb7de2e0d752de8aa9dc9aaed7.js",
+    "service-worker.js": "/singup-react/service-worker.js",
+    "static/js/2.b7b03db8.chunk.js.LICENSE.txt": "/singup-react/static/js/2.b7b03db8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67e42004.js",
+    "static/js/2.b7b03db8.chunk.js",
+    "static/js/main.d972cf5f.chunk.js"
+  ]
+}
